@@ -7,7 +7,12 @@
   justify-content: center;
   padding: 20px 40px;
   cursor: pointer;
+ 
+  height: 500px;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 
 .title {
   font-size: 18px;
@@ -22,8 +27,12 @@
 }
 
 .desc {
-  text-align: center;
+  text-align: justify;
   color: #777;
+
+
+
+ 
 }
 
 @media screen and (max-width: 480px) {
