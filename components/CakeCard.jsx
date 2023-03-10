@@ -6,7 +6,7 @@ const CakeCard = ( {cake}) => {
   return (
     <div className={styles.container}>
       <Link href={`/product/${cake._id}`} passHref>
-      <Image src={cake.img} alt="" width="500" height="500" />
+      <Image src={cake.img} alt="" width="600" height="600"  />
       </Link>
       <h1 className={styles.title}>{cake.title}</h1>
       <span className={styles.price}>${cake.prices[0]}</span>
